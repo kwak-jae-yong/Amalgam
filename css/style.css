@@ -1,0 +1,152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#box {
+    margin: auto;
+    width: 800px;
+    background-color: rgb(216, 216, 216);
+}
+
+ul {
+    list-style-type: none;
+}
+
+#box header {
+    background-color: rgb(118, 137, 219);
+    padding: 5px;
+}
+
+
+#box nav ul li {
+    background-color: aqua;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#box nav ul li:nth-child(3) {
+    font-size: 30px;
+
+}
+
+#box nav ul li:hover {
+    background-color: rgba(0, 132, 255, 0.363);
+}
+
+#box nav ul li:hover a {
+
+    color: white;
+}
+
+#box nav ul li a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+
+#box .hero .img_wrap img {
+    width: 400px;
+}
+
+#box .hero {
+    border: 5px solid aqua;
+    margin: 10px;
+    padding: 5px;
+}
+
+#box .hero h2::before {
+    content: "시원한 ";
+}
+
+#box .hero h2::after {
+    content: " 놀러가자 ";
+}
+
+#box .best {
+    border: 5px solid aqua;
+    padding: 5px;
+    margin: 10px;
+}
+
+#box .best h2 {
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 100px;
+}
+
+#box .best .best_wrap_b {
+    text-align: right;
+}
+
+
+#box .best .best_wrap_a img {
+    max-width: 400px;
+}
+
+#box .best .best_wrap_b img {
+    max-width: 400px;
+}
+
+#box .bucket_list {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid aqua;
+}
+
+#box .bucket_list img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#box .bucket_list li {
+    border: 3px solid aqua;
+    font-size: 30px;
+}
+#box .bucket_list li:nth-child(odd)
+{
+    text-align: center;
+   
+}
+
+#box .bucket_list li:nth-child(even) {
+    text-align: right;
+  
+}
+
+.tip {
+    border: 3px solid aqua;
+    margin: 10px;
+}
+
+.tip ul li img {
+    width: 100px;
+    max-width: 200px;
+}
+
+.tip ul li {
+    font-size: 200%;
+}
+
+#box footer .img_wrap img {
+    max-width: 200px;
+    width: 200px;
+}
+#box footer .img_wrap:nth-child(2){
+    text-align: left;
+}
+
+#box footer li::before {
+    content: "이메일";
+}
+
+#box footer li:nth-child(2)::before {
+    content: "sns";
+    text-indent: 100px;
+}
+#box footer li:nth-child(2){
+    text-indent: 30px;
+}
